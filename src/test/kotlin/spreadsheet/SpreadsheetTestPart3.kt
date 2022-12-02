@@ -4,7 +4,6 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class SpreadsheetTestPart3 {
-    /*
     private val sheet = Sheet()
 
     @Test
@@ -60,5 +59,5 @@ class SpreadsheetTestPart3 {
         sheet.put("B1", "7")
         sheet.put("A2", "= A1 * B1")
         assertEquals("70", sheet.get("A2"))
-    }*/
+    }
 }

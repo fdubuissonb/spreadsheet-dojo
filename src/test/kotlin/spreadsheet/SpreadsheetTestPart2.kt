@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
 class SpreadsheetTestPart2 {
-    /*
     private val sheet = Sheet()
 
     @Test
@@ -49,5 +48,5 @@ class SpreadsheetTestPart2 {
         val invalidDecimal = "  2..5  "
         sheet.put("A1", invalidDecimal)
         assertEquals("  2..5  ", sheet.get("A1"))
-    }*/
+    }
 }

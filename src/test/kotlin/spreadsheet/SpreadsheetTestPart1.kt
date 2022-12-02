@@ -11,7 +11,7 @@ class SpreadsheetTestPart1 {
         assertEquals("", sheet.get("A1"))
         assertEquals("", sheet.get("ZX347"))
     }
-/*
+
     @Test
     fun testThatCellsAreStored() {
         val theCell = "A21"
@@ -74,5 +74,5 @@ class SpreadsheetTestPart1 {
 
         sheet.put(theCell, " ") // Just a blank
         assertEquals(" ", sheet.get(theCell))
-    }*/
+    }
 }
